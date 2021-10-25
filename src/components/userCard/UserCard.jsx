@@ -6,7 +6,7 @@ import {
     removeFromFavoriteItems,
 } from "../../redux/actions/favorites.actions";
 
-const UserCard = ({ user, key }) => {
+const UserCard = ({ user }) => {
     const { login, avatar_url, html_url, score } = user;
     const favoriteItems = useSelector(selectFavoritesItems);
     const dispatch = useDispatch();
@@ -24,7 +24,7 @@ const UserCard = ({ user, key }) => {
     };
 
     return (
-        <div className="user-card" key={key}>
+        <div className="user-card">
             <h4>{login}</h4>
             <img src={avatar_url} alt="" style={{ height: 50 }} />
             <h5>
