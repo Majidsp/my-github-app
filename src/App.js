@@ -15,15 +15,19 @@ function App() {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="/">Search User</Link>
+                                    <Link to="/" data-cy="nav-link">
+                                        Search User
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to="/team">
+                                    <Link to="/team" data-cy="nav-link">
                                         3 Developer Team Builder
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/fav">Favorites</Link>
+                                    <Link to="/fav" data-cy="nav-link">
+                                        Favorites
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>

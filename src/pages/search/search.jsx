@@ -26,8 +26,12 @@ const Search = () => {
 
     return (
         <div>
-            <input type="text" onChange={handleChange} />
-            <button onClick={handleSearch} disabled={!searchValue}>
+            <input type="text" data-cy="user-query" onChange={handleChange} />
+            <button
+                data-cy="user-search-btn"
+                onClick={handleSearch}
+                disabled={!searchValue}
+            >
                 Search
             </button>
             {usersData && (

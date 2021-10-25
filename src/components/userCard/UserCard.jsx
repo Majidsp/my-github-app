@@ -24,7 +24,7 @@ const UserCard = ({ user }) => {
     };
 
     return (
-        <div className="user-card">
+        <div className="user-card" data-cy="user-card">
             <h4>{login}</h4>
             <img src={avatar_url} alt="" style={{ height: 50 }} />
             <h5>
