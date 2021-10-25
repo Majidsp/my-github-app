@@ -4,3 +4,16 @@
     align-items: center;
     justify-content: center;
 }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    color: white;
+}
