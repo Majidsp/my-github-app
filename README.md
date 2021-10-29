@@ -35,7 +35,7 @@ You can run the unit tests using:
 
 `npm test`
 
-#### Integration Tests
+#### End to End Tests
 
 To run Cypress in interactive mode run:
 
